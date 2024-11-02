@@ -40,3 +40,11 @@ AT_00_00_ON_DAY_1_OF_MONTH_AND_ON_SATURDAY_ONLY_IN_JANUARY:"0 0 1 1 6",
 AT_00_00_ON_DAY_1_OF_MONTH_ONLY_IN_JANUARY:"0 0 1 1 *",
 AT_00_00_ON_DAY_1_OF_MONTH_EVERY_2_DAYS_OF_WEEK_ONLY_IN_JANUARY:"0 0 1 1 */2",
 ```
+
+## Generating the file yourself
+
+`generate.ts` is what generates `src/cronts.ts`, to run it:
+
+```bash
+bun generate.ts
+```
